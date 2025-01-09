@@ -5,7 +5,7 @@ select name, countrycode
 from city;
 
 # Find the total population of all cities in the 'Uttarakhand' district.
-select sum(population) as total_pop
+select sum(population) as total_population
 from city
 where district = 'Dhaka';
 
